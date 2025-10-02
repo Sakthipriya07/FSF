@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+
+/* FAQ Styling */
+h1, h2 {
+  color: #2e1b4f;
+}
+.faq-subtext {
+  color: #2e1b4f;
+}
+
+/* Support Section */
+.support-section {
+  text-align: center;
+  padding: 40px 20px;
+  background: #f8f9fa;
+}
+.contact-box {
+  display: inline-block;
+  background: #0a143f;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.contact-box:hover {
+  background: #1d1648;
+}
+.contact-box i {
+  margin-right: 8px;
+}
+.disclaimer {
+  font-size: 13px;
+  color: #4b2c7c;
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #0b0d25;
+  color: #fff;
+  text-align: left;
+  padding: 40px 20px 20px;
+}
+.footer-top {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.footer-top h1 {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+  color: #bbb;
+}
+.footer-top span {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  color: #bbb;
+}
+.footer-top p {
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.footer-sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+.footer-section h4 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.footer-section hr {
+  border: none;
+  border-top: 1px dashed #666;
+  margin: 8px 0 12px;
+  width: 150px;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+.bottom-text {
+  text-align: center;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #ccc;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .footer-sections {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-section hr {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  }
